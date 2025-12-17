@@ -9,13 +9,10 @@ The goal of this repo is to **build consistency**, **improve problem-solving ski
 
 - Practice DSA concepts regularly
 - Strengthen problem-solving and coding fundamentals
-- Track my learning journey through GitHub commits
-- Prepare for coding interviews
-- Maintain consistency and discipline
 
 ---
 
-## Topics Covered
+## Topics To be Covered
 
 - Arrays & Strings
 - Sliding Window
