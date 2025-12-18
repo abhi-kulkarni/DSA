@@ -1,4 +1,5 @@
 from typing import List
+from utils import log_output
 
 class TwoPointers:
 
@@ -19,9 +20,7 @@ class TwoPointers:
 
             s.append(i)
 
-        print(max_a)
-
-        return max_a
+        return log_output(max_a)
     
 if __name__ == '__main__':
     

@@ -1,3 +1,5 @@
+from utils import log_output
+
 class SlidingWindow:
 
     def checkInclusion(self, s1: str, s2: str) -> bool:
@@ -5,8 +7,10 @@ class SlidingWindow:
         n1 = len(s1)
         n2 = len(s2)
 
+        has_inclusion = False
+
         if n1 > n2:
-            return False
+            return log_output(has_inclusion)
         
         l = 0
         count1 = [0]*26
@@ -14,8 +18,6 @@ class SlidingWindow:
 
         a = ord('a')
         
-        has_inclusion = False
-
         for i in range(n1):
             count1[ord(s1[i]) - a] += 1
         
@@ -29,9 +31,7 @@ class SlidingWindow:
                 has_inclusion = True
                 break
         
-        print(has_inclusion)
-
-        return has_inclusion
+        return log_output(has_inclusion)
         
 
 if __name__ == '__main__':

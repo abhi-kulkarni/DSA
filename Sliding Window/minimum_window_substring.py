@@ -1,13 +1,12 @@
 from collections import Counter
-
+from utils import log_output
 
 class SlidingWindow:
 
     def minWindow(self, s: str, t: str) -> str:
 
         if not s or not t:
-            print("")
-            return ""
+            return log_output("")
         
         have = {}
         need = Counter(t)
@@ -40,11 +39,9 @@ class SlidingWindow:
                 l += 1
         
         if res[0] != float("inf"):
-            print(s[res[1]: res[2]+1])
-            return s[res[1]: res[2]+1]
+            return log_output(s[res[1]: res[2]+1])
         
-        print("")
-        return ""
+        return log_output("")
         
 
 if __name__ == '__main__':

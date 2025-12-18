@@ -1,5 +1,5 @@
 from typing import List
-
+from utils import log_output
 class TwoPointers:
 
     def maxArea(self, heights: List[int]) -> int:
@@ -21,9 +21,7 @@ class TwoPointers:
             else:
                 r -= 1
         
-        print(max_a)
-
-        return max_a
+        return log_output(max_a)
     
 if __name__ == '__main__':
     
