@@ -31,14 +31,14 @@ The goal of this repo is to **build consistency**, **improve problem-solving ski
 
 ## Languages Used
 
-- Python (primary)
+- Python
 
 ---
 
 ## Progress Tracking
 
 - Problems solved daily or regularly
-- Focus on **understanding concepts**, not just solutions
+- Focus on **understanding concepts**
 - Refactoring older solutions when learning better approaches
 
 ---
@@ -46,13 +46,4 @@ The goal of this repo is to **build consistency**, **improve problem-solving ski
 ## How I Use This Repo
 
 - Solve at least 1 DSA problem per day
-- Commit solutions with meaningful messages
 - Revisit and optimize previous solutions
-- Add notes/comments for future reference
-
----
-
-## Disclaimer
-
-This repository is **not meant for copying solutions**.  
-It is a personal learning log and practice space.
