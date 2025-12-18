@@ -1,4 +1,5 @@
 from utils import log_output
+
 class SlidingWindow:
 
     def lengthOfLongestSubstring(self, s: str) -> int:

@@ -1,4 +1,5 @@
 from utils import log_output
+
 class SlidingWindow:
 
     def characterReplacement(self, s: str, k: int) -> int:
