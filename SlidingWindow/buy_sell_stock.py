@@ -1,5 +1,5 @@
 from typing import List
-from utils import log_output
+from shared.utils import log_output
 
 class SlidingWindow:
 
@@ -22,6 +22,6 @@ if __name__ == '__main__':
     
     sliding_window = SlidingWindow()
 
-    prices = [10,8,7,5,2]
+    prices = [10,1,5,6,7,1]
 
     sliding_window.maxProfit(prices)

@@ -1,5 +1,5 @@
 from collections import Counter
-from utils import log_output
+from shared.utils import log_output
 
 class SlidingWindow:
 

@@ -1,6 +1,6 @@
 from collections import deque
 from typing import List
-from utils import log_output
+from shared.utils import log_output
 
 class SlidingWindow:
 
