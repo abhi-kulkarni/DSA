@@ -10,16 +10,16 @@ class Stack:
             if token not in "+-*/":
                 s.append(int(token))
             else:
-                op1 = s.pop() # right
-                op2 = s.pop() # left
+                op2 = s.pop() # right
+                op1 = s.pop() # left
                 if token == "+":
-                    s.append(op2+op1)
+                    s.append(op1+op2)
                 elif token == "-":
-                    s.append(op2-op1)
+                    s.append(op1-op2)
                 elif token == "*":
-                    s.append(op2*op1)
+                    s.append(op1*op2)
                 elif token == "/":
-                    s.append(int(op2/op1))
+                    s.append(int(op1/op2))
 
         return log_output(s[0])
 
