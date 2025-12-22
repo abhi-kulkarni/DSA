@@ -26,6 +26,9 @@ eval_rpn *args:
 min_stack *args:
     {{python}} -m Stack.min_stack {{args}}
 
+daily_temperatures *args:
+    {{python}} -m Stack.daily_temperatures {{args}}
+
 container_with_most_water *args:
     {{python}} -m TwoPointers.container_with_most_water {{args}}
 
