@@ -22,5 +22,3 @@ if __name__ == '__main__':
 
     temperatures = [30,38,30,36,35,40,28]
     stack.dailyTemperatures(temperatures)
-
-    

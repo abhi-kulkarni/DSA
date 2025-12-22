@@ -29,6 +29,9 @@ min_stack *args:
 daily_temperatures *args:
     {{python}} -m Stack.daily_temperatures {{args}}
 
+car_fleet *args:
+    {{python}} -m Stack.car_fleet {{args}}
+
 container_with_most_water *args:
     {{python}} -m TwoPointers.container_with_most_water {{args}}
 
