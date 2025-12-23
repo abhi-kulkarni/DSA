@@ -8,7 +8,7 @@ class Stack:
         prev_time = 0
         fleets = 0
 
-        cars = sorted(zip(position, speed) ,reverse=True)
+        cars = sorted(zip(position, speed), reverse=True)
 
         for pos, speed in cars:
             time = (target - pos) / speed
